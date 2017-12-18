@@ -28,6 +28,13 @@ hs_err_pid*
 build/
 .gradle
 
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
 # IDEA
 .idea/**/workspace.xml
 .idea/**/tasks.xml
