@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'g'
+mainClassName = 'g.pkg.Main'
+
+repositories {
+    mavenLocal()    //  已内置，但断网时还需要显式声明在第一行。
+    mavenCentral();
+}
+
+dependencies {
+}
